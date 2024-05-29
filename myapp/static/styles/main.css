@@ -1,0 +1,129 @@
+body{
+  background: #202020;
+  color: #fff;
+}
+
+.navbar{
+  background: #404040;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li{
+  list-style: none;
+}
+
+.navbar ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover{
+  color: #0bd6e1;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 16px;
+}
+
+.card {
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.input{
+  background: #0bd6e1;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+/* styles home */
+
+.titulo-inicio{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.parrafos{
+  font-size: 24px;    
+  font-family: 'Poppins', sans-serif;
+}
+
+.subtitulos{
+  font-size: 38px;
+  font-family: 'Merriweather', serif;
+}
+
+/*Footer*/
+
+.pie-pagina{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.redes{
+  color: #fff;
+  text-decoration: none;
+  margin: 60px 20px;
+
+}
+
+.enlace-footer{
+  text-decoration: none;
+}
+
+.bi-facebook{
+  color: #3b5998;
+}
+
+.bi-facebook:hover{
+  color: #072057;
+}
+
+.bi-instagram{
+  color: #e241ba;
+}
+
+.bi-instagram:hover{
+  color: #5f0649;
+}
+
+.bi-whatsapp{
+  color: #25D366;
+}
+
+.bi-whatsapp:hover{
+  color: #075c26;
+  border-radius: 50px;
+}
+
+.equipo{
+  font-size: 20px;
+  font-family: pompiere;
+}
+
+
+.text-reservado{
+  text-align: center;
+  height: 25px;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+}
+
+.tres-secciones{
+  padding: 0 100px;
+}

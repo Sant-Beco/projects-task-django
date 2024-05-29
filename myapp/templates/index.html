@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<h1>{{ title }}</h1>
+
+<img src="{% static 'inicio.png' %}" alt="esparta" width="1000">
+
+<h2 class="titulo-inicio">
+  Creado por santiago Bedoya Corrales
+</h2>
+<p class="parrafos">
+  soy un joven programador que disfruta del desarrollo de software en todas sus dimensiones. Mi pasión por la programación me impulsa a buscar constantemente nuevas habilidades y conocimientos en el mundo tecnológico. Me encanta enfrentar desafíos y resolver problemas de manera creativa. Siempre busco aprender de las últimas tendencias en el campo de la tecnología para mejorar mis habilidades y seguir creciendo profesionalmente. 
+</p>
+<p class="parrafos">
+  Busco desafíos que me permitan aplicar mis habilidades de forma creativa y seguir creciendo en mi carrera profesional. Siempre estoy al tanto de las últimas tendencias y novedades en el mundo tecnológico para mantenerme actualizado y mejorar mis capacidades. La resolución de problemas me motiva y me impulsa a ser un mejor programador cada día. Mi dedicación y pasión por el desarrollo de software me inspiran a seguir aprendiendo y avanzando en esta apasionante industria.
+</p>
+<p class="parrafos">
+  Busco estar siempre al día con las últimas tecnologías y tendencias del ámbito informático, lo que me impulsa a seguir mejorando mis habilidades y ampliando mis conocimientos. Me apasiona encontrar soluciones innovadoras a problemas complejos mediante un enfoque creativo y proactivo. La resolución de desafíos me motiva a superarme constantemente y a buscar nuevas oportunidades para crecer profesionalmente en el campo del desarrollo de software. Mi dedicación y entusiasmo por la programación son el motor que impulsa mi carrera. 
+</p>
+
+<h3 class="subtitulos">
+  ¿Que es python?
+</h3>
+<p class="parrafos">
+  Python es un lenguaje de programación de alto nivel, interpretado y de propósito general. Es conocido por ser fácil de aprender, leer y usar. Se utiliza en una variedad de aplicaciones, desde desarrollo web hasta análisis de datos. Además, Python cuenta con una amplia comunidad de usuarios y una gran cantidad de bibliotecas y herramientas que facilitan el desarrollo de proyectos. Su sintaxis clara y legible lo convierte en una excelente opción para principiantes y expertos en programación.
+</p>
+<p class="parrafos">
+  Python es ampliamente utilizado en el campo de la inteligencia artificial, aprendizaje automático y ciencia de datos debido a su facilidad de uso y las poderosas bibliotecas que ofrece, como NumPy, Pandas y TensorFlow. Esta versatilidad ha hecho que Python sea una de las opciones más populares para profesionales de tecnología y científicos de datos. Incluso en áreas como la automatización de tareas, Python es una herramienta invaluable debido a su flexibilidad y eficiencia.
+</p>
+<h3 class="subtitulos">
+  Informacion importante de Django
+</h3>
+<p class="parrafos">
+  Django es un popular framework de desarrollo web en Python que sigue el principio "batteries included". Esto significa que viene con una gran cantidad de funcionalidades listas para usar, lo que acelera el proceso de desarrollo. Entre sus características destacadas se encuentran el ORM integrado para interactuar con la base de datos y el panel de administración automático. Además, Django sigue el patrón de diseño MTV (Modelo-Vista-Template) que facilita la organización del código.
+</p>
+<h3 class="subtitulos">
+  lista de actividades pendientes
+</h3>
+<ul class="parrafos">
+  <li>Crear un proyecto con Django</li>
+  <li>Crear un proyecto con html y css</li>
+  <li>Crear el frontend con Django</li>
+  <li>Agregar mas funcionalidad a interfaces de html y css</li>
+</ul>
+
+<h3 class="subtitulos">Lista de temas de interes</h3>
+
+<ol class="parrafos">
+  <li>¿Que es el front-end?</li>
+  <li>¿Que es el Back-end?</li>
+  <li>¿Que es Base de datos?</li>
+  <li>¿Que es Json?</li>
+  <li>¿Que es Django?</li>
+  <li>¿Que es JavaScript?</li>
+  <li>¿Que es una Arquitectura?</li>
+  <li>¿Que es un patron de diseño?</li>
+</ol>
+
+
+<h3 class="subtitulos">
+  cronograma de cursos
+</h3>
+
+<table border="1" class="parrafos">
+  <tr>
+    <th>Id curso</th>
+    <th>Nombre curso</th>
+    <th>Precio</th>
+    <th>Fecha</th>
+  </tr>
+  <tr>
+    <td>00001</td>
+    <td>Analisis y desarrollo de software</td>
+    <td>$500.000</td>
+    <td>23/07/2024</td>
+  </tr>
+  <tr>
+    <th>00002</th>
+    <th>Control y calidad de alimentos</th>
+    <th>$600.000</th>
+    <th>23/07/2024</th>
+  </tr>
+  <tr>
+    <td>00003</td>
+    <td>Full stack con Django?</td>
+    <td>$400.000</td>
+    <td>23/07/2024</td>
+  </tr>
+</table>
+
+<h3 class="subtitulos">
+  Mas informacion sobre tecnologias basicas web
+</h3>
+
+<details class="parrafos" open>
+  <summary>HTML</summary>
+  <div>
+    <p>
+      HTML (HyperText Markup Language) es un lenguaje de marcado utilizado en el desarrollo web. Se utiliza para crear la estructura y el contenido de las páginas web. Consiste en etiquetas que definen diferentes elementos como encabezados, párrafos, enlaces, imágenes, formularios, entre otros. Es fundamental para la construcción de sitios web y su funcionamiento en navegadores. A través de etiquetas, se define la apariencia y disposición de los elementos en una página.
+    </p>
+    <p>
+      HTML se encarga de estructurar el contenido de las páginas web mediante etiquetas que indican cómo se deben mostrar los diferentes elementos. Estas etiquetas permiten definir los encabezados, los párrafos, los enlaces, las imágenes, los formularios, entre otros elementos necesarios para el diseño y la funcionalidad de un sitio web. La correcta utilización de HTML es esencial para garantizar que las páginas se visualicen correctamente en los navegadores, asegurando una experiencia de usuario óptima.
+    </p>
+  </div>
+</details>
+<details class="parrafos">
+  <summary>CSS</summary>
+  <div>
+    <p>
+      CSS es un lenguaje de estilo utilizado para controlar la presentación de documentos web escritos en HTML. Permite definir colores, fuentes, márgenes, tamaños, y otros aspectos visuales de un sitio web. Esto facilita la separación del contenido y el diseño visual, lo que ayuda a mantener la consistencia en un sitio web. Al utilizar CSS, los desarrolladores pueden crear interfaces web atractivas y modernas de manera eficiente y escalable.
+    </p>
+    <p>
+      CSS también permite establecer la disposición de los elementos en una página web, como la ubicación y el tamaño de las imágenes o los espacios entre los elementos. Además, brinda la posibilidad de aplicar efectos de transición, animaciones y transformaciones a los elementos para mejorar la experiencia del usuario. Con CSS, se puede personalizar el diseño de un sitio web de manera más eficiente, lo que resulta en una apariencia visual más atractiva y profesional.
+    </p>
+  </div>
+</details>
+<details class="parrafos">
+  <summary>JavaScript</summary>
+  <div>
+    <p>
+      Javascript es un lenguaje de programación muy popular que se utiliza principalmente para crear interactividad en páginas web. Permite a los desarrolladores crear animaciones, juegos, aplicaciones web y mucho más. Al ser un lenguaje de programación del lado del cliente, Javascript se ejecuta en el navegador web del usuario, lo que lo hace accesible y versátil. También se puede utilizar en el desarrollo de servidores a través de Node.js, ampliando sus capacidades.
+    </p>
+    <p>
+      Javascript es altamente versátil y esencial en el desarrollo web moderno. Su capacidad para manipular HTML y CSS lo convierte en una herramienta poderosa para mejorar la experiencia del usuario en los sitios web. Los desarrolladores pueden aprovechar su sintaxis sencilla y flexible para crear aplicaciones interactivas y dinámicas. Además, su integración con tecnologías como Node.js permite expandir sus funciones más allá del navegador. En resumen, Javascript es fundamental en el desarrollo web actual.
+    </p>
+  </div>
+</details>  
+
+
+
+{% endblock %}

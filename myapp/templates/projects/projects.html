@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 style="color: #0bd6e1;">projects the app</h1>
+
+{% for project in projects %}
+
+<article class="card">
+  <a href="{% url 'project_detail' project.id %}" style="text-decoration: none;">
+    <h2 style="color: #000;">{{project.name}}</h2>
+  </a>
+</article>
+
+{% endfor %}
+<h3 class="titulo-inicio">
+  Proyetos de software
+</h3>
+<p class="parrafos">
+  los proyectos del sector tecnológico pueden variar en tamaño y complejidad. Desde aplicaciones móviles hasta sistemas de gestión empresarial, la ingeniería de software juega un papel fundamental en su desarrollo. Es fundamental contar con un equipo multidisciplinario que incluya programadores, diseñadores y testers para garantizar el éxito del proyecto. Además, la planificación y la gestión de recursos son aspectos clave a tener en cuenta para cumplir con los plazos y presupuestos establecidos.
+</p>
+
+<h3 class="subtitulos">
+  Fases del Proyecto de Software
+</h3>
+<p class="parrafos">
+  Las fases del proyecto de software son fundamentales para su éxito. Desde la definición de requisitos hasta la implementación y pruebas, cada etapa es crucial para garantizar un producto final de calidad. La comunicación efectiva entre los miembros del equipo y la gestión adecuada de los recursos son aspectos clave a considerar en cada fase. Además, la retroalimentación constante y la adaptabilidad a los cambios son prácticas recomendadas en la industria del desarrollo de software.
+</p>
+<p class="parrafos">
+  Más fases del proyecto de software A medida que avanza el proyecto de software, es crucial mantener laión entre los miembros del equipo y asegurarse de que se cumplan los hitos establecidos. La colaboración y la claridad en las tareas asignadas son esenciales para lograr una implementación exitosa. La documentación detallada de cada fase y la revisión constante de los avances son prácticas recomendadas para garantizar la calidad y eficacia del proyecto en su conjunto.
+</p>
+<p class="parrafos">
+  Más Aspectos a Considerar en los Proyectos de Software Al avanzar en las fases del proyecto de software, la coordinación fluida entre los integrantes del equipo es esencial para alcanzar los objetivos establecidos. La transparencia en las responsabilidades asignadas y la retroalimentación constante favorecen la eficiencia en la implementación. La documentación detallada de cada etapa y la evaluación continua de los progresos son prácticas clave para asegurar la calidad y la efectividad del proyecto en su totalidad. 
+</p>
+<h3 class="subtitulos">
+  ¿Por qué son importantes?
+</h3>
+<p class="parrafos">
+  Son esenciales para lograr un producto final de calidad. La comunicación efectiva y la gestión adecuada de recursos son cruciales en cada etapa. La coordinación fluida entre los miembros del equipo, la transparencia en las responsabilidades asignadas y la documentación detallada de avances son prácticas clave para el éxito. La retroalimentación constante y la adaptabilidad a los cambios son fundamentales en el desarrollo de software.
+</p>
+<h3 class="subtitulos">
+  lista de importancia
+</h3>
+<ul class="parrafos">
+  <li>Colaboracion</li>
+  <li>Implementacion</li>
+  <li>Innovacion</li>
+  <li>Resolucion de problemas</li>
+</ul>
+
+{% endblock %}

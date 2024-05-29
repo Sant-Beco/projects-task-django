@@ -1,0 +1,22 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 style="color: #0bd6e1;">
+  Create projects
+</h1>
+
+<form method="POST">
+  {% csrf_token %}
+  {{form}}
+  <br>
+  <button>
+    save project
+  </button>
+</form>
+<br>
+<br>
+<br>
+
+{% endblock %}

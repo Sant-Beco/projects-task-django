@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1 style="color: #0bd6e1;">create tasks</h1> 
+
+<form method="POST">
+  {% csrf_token %}
+  {{form.as_p}}
+  <button>
+    save
+  </button>
+</form>
+
+{% endblock %}

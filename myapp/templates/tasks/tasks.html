@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!--comentario que si se ve-->
+<h1 style="color: #0bd6e1;">Tasks a realizar de cada proyecto</h1>
+
+{% for task in tasks %}
+
+<div>
+  {# note: esto es un comentario #}
+  <h1>{% if task.done == False %} 🕐 {% else %} ✅ {% endif %} {{task.title}} </h1>
+  <p>{{task.description}}</p>
+  <p>project name:{{task.project.name}}</p>
+  <p>project id:{{task.project.id}}</p>
+  <button>
+    Delete
+  </button>
+  <button>
+    ✅ Done
+  </button>
+</div>
+
+{% endfor %}
+
+
+{% endblock %}
