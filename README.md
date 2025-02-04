@@ -14,6 +14,7 @@ HTML5, CSS3 – Frontend básico
 Python – Lenguaje de programación
 
 📂 Estructura del proyecto
+
 ![image](https://github.com/user-attachments/assets/783ad60c-3ee5-4b8e-9abd-41aad7c3e553)
 
 ✉️ Contacto
